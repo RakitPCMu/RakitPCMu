@@ -1967,7 +1967,7 @@ body {
 	cursor: pointer;
 }
 
-.hdky {
+.container.hdky {
     position: absolute;
     opacity: 0;
     width: 0;
