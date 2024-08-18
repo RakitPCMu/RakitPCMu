@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>RakitPCMu - Jasa Rakit PC Tasikmalaya</title>
+    <link>https://www.rakitpcmu.com</link>
+    <description>RakitPCMu merupakan penyedia Jasa Rakit PC Terbaik di Tasikmalaya ada Gratis Konsultasi, Jaminan Garansi 100%, Menerima Panggilan dan lain sebagainya.</description>
+    <language>en-us</language>
+    <pubDate>Sun, 18 Aug 2024 07:00:00 +0000</pubDate>
+    <lastBuildDate>Sun, 18 Aug 2024 07:00:00 +0000</lastBuildDate>
+    
+    <item>
+      <title>RakitPCMu</title>
+      <link>https://www.rakitpcmu.com</link>
+      <description>RakitPCMu merupakan penyedia Jasa Rakit PC Terbaik di Tasikmalaya ada Gratis Konsultasi, Jaminan Garansi 100%, Menerima Panggilan dan lain sebagainya.</description>
+      <pubDate>Sun, 18 Aug 2024 07:00:00 +0000</pubDate>
+      <guid>https://www.rakitpcmu.com</guid>
+      <media:content url="https://www.rakitpcmu.com/assets/images/rakitpcmu-thumbnail.jpg" medium="image"/>
+    </item>
+    
+    <!-- Tambahkan item lainnya di sini -->
+    
+  </channel>
+</rss>
