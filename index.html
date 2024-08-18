@@ -94,16 +94,6 @@
       "ratingCount" : "1"
     }
     </script>
-
-    <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-9HS4GM8JCW"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-9HS4GM8JCW');
-</script>
     
   </head>
   <body class="boxed-layout">
@@ -144,7 +134,7 @@
                         <h1>Pusing, Takut atau Bimbang Mau Rakit PC? Jasa Rakit PC Solusinya!</h1>
                         <p class="condition_txt">Pesan Jasa Rakit PC di RakitPCMu ada Gratis Konsultasi ++ Jaminan Garansi Perakitan 100%.</p>
                         <a class="btn-action btn-outline js-scroll-trigger" href="#konsultasi">Konsultasi Dulu</a>
-                        <a id="track1" class="btn-action" href="https://wa.me/6285143297082" rel="noreferrer" target="_blank">Pesan Langsung</a>
+                        <a class="btn-action" href="https://wa.me/6285143297082" rel="noreferrer" target="_blank">Pesan Langsung</a>
                       </div>
                     </div>
                   </div>
@@ -553,7 +543,7 @@
                   <h2>Yuk, Wujudkan PC Impian Kamu Bareng RakitPCMu</h2>
                   <div class="ctatext"><p>Nggak pusing, takut dan bimbang lagi rakit pc semudah klik tombol di bawah ini.</p></div>
                   <div class="form">
-                      <input class="mail" id="chimp-email" type="text" name="text" placeholder="Tulis pesan (optional)" autocomplete="off"><input id="track2" class="submit-button" type="submit" value="Chat" onclick="sendMessage()">
+                      <input class="mail" id="chimp-email" type="text" name="text" placeholder="Tulis pesan (optional)" autocomplete="off"><input class="submit-button" type="submit" value="Chat" onclick="sendMessage()">
                    </div>
                   </div>
                 </div>
@@ -680,24 +670,6 @@
     <script src="assets/js/jquery.validate.min.js"></script>
     <script src="assets/js/plugins.js"></script>
     <script src="assets/js/custom.js"></script>
-
-    <script>
-    function sendEvent(buttonId) {
-      gtag('event', 'button_click', {
-        'event_category': 'engagement',
-        'event_label': buttonId
-      });
-    }
-
-    document.getElementById('track1').addEventListener('click', function(event) {
-      sendEvent('track1');
-      event.preventDefault(); // Mencegah navigasi jika tidak diinginkan
-    });
-
-    document.getElementById('track2').addEventListener('click', function() {
-      sendEvent('track2');
-    });
-  </script>
     
   </body>
 </html>
