@@ -1,6 +1,6 @@
+# Memungkinkan semua user-agents (crawler) untuk mengakses semua halaman
 User-agent: *
-Disallow: /
-Allow: /index.html
-Allow: /$
+Disallow:
 
+# Menambahkan lokasi sitemap
 Sitemap: https://www.rakitpcmu.com/sitemap.xml
