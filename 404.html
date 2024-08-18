@@ -768,15 +768,16 @@
 	src: url(https://fonts.gstatic.com/s/roboto/v32/KFOlCnqEu92Fr1MmYUtfBBc4.woff2) format('woff2');
 	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
   }
-
-        body { font-family: Roboto, sans-serif; text-align: center; margin-top: 90px; margin-bottom: 90px; }
-        h1 {
-	font-size: 24px;
-	font-weight: 800;
-	color: #000000;
-	line-height: 1.2;
-	margin-top: 20px;
-}
+	    
+        body {
+            font-family: Roboto, sans-serif;
+            text-align: center; /* Menyelaraskan teks secara horizontal */
+            display: flex; /* Mengubah div menjadi container flex */
+            flex-direction: column; /* Menata elemen secara vertikal */
+            justify-content: center; /* Menempatkan elemen secara vertikal di tengah */
+            align-items: center; /* Menempatkan elemen secara horizontal di tengah */
+            height: 100vh; /* Menyesuaikan tinggi div dengan tinggi viewport */
+        }
         p {
 	font-size: 16px;
   font-weight: 400;
